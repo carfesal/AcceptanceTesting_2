@@ -39,9 +39,9 @@ def get_game_developer(game_list, developer):
 	if len(result)==1:
 		message = 'A game developed by ' + developer + " was found."
 	elif len(result)>0:
-		message = str(len(result))+' games developed by: ' + developer +"were found."
+		message = str(len(result))+' games developed by: ' + developer +" were found."
 	else:
-		message = 'No game developed by '+developer+' found'
+		message = 'No game developed by '+developer+' found.'
 	return result, message
 
 
